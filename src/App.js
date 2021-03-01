@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import { Bee } from '@ethersphere/bee-js'
 
 function App() {
+  const bee = new Bee('https://gateway.ethswarm.org/')
   return (
     <div className="App">
       <header className="App-header">
